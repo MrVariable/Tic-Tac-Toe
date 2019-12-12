@@ -1,22 +1,3 @@
-/**
-* This program is a boilerplate code for the standard tic tac toe game
-* Here the “box” represents one placeholder for either a “X” or a “0”
-* We have a 2D array to represent the arrangement of X or O is a grid
-* 0 -> empty box
-* 1 -> box with X
-* 2 -> box with O
-*
-* Below are the tasks which needs to be completed:
-* Imagine you are playing with the computer so every alternate move should be done by the computer
-* X -> player
-* O -> Computer
-*
-* Winner needs to be decided and has to be flashed
-*
-* Extra points will be given for approaching the problem more creatively
-* 
-*/
-
 const PLAYER_X = 'X';
 const PLAYER_O = 'O';
 
@@ -32,7 +13,6 @@ function initializeGrid() {
         }
         grid.push(tempArray);
     }
-    console.log('Grid ------------------> ', grid);
 }
 
 function getRowBoxes(colIdx) {
